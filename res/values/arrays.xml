@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+    <string-array name="my_apps">
+        <item>About</item>
+        <item>Page 1</item>
+        <item>Page 2</item>
+        <item>Page 3</item>
+        <item>Page 4</item>
+        <item>Page 5</item>
+        <item>Page 6</item>
+        
+        
+        
+        
+    </string-array>
+    <string-array name="kartik">
+        
+        <item>kartik is the smartest guy</item>
+        <item>kartik is the smartest guy</item>
+        <item>kartik is the smartest guy</item>
+        <item>kartik is the smartest guy</item>
+        <item>kartik is the smartest guy</item>
+        <item>kartik is the smartest guy</item>
+        <item>kartik is the smartest guy</item>
+        <item>kartik is the smartest guy</item>
+        <item>kartik is the smartest guy</item>
+        <item>kartik is the smartest guy</item>
+        <item>kartik is the smartest guy</item>
+        <item>kartik is the smartest guy</item>
+        <item>kartik is the smartest guy</item>
+        <item>kartik is the smartest guy</item>
+        <item>kartik is the smartest guy</item>
+        <item>kartik is the smartest guy</item>
+        <item>kartik is the smartest guy</item>
+                                                                        
+     </string-array>
+    
+    
+   
+</resources>

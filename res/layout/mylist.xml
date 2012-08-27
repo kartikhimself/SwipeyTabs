@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >    
+
+    <Button
+        android:id="@+id/showSelectedButton"
+        android:layout_alignParentLeft="true"
+        android:layout_width="100dp"
+        android:onClick="onClick"
+        android:layout_height="wrap_content"
+        android:text="Selected" />
+    
+    <Button android:id="@+id/unselectButton" 
+        android:layout_width="100dp" 
+        android:layout_alignParentRight="true"
+        android:onClick="onClick"
+        
+        android:layout_height="wrap_content" 
+        android:text="UnSelect"/>
+    
+    <Button android:id="@+id/selectAllButton" 
+        android:layout_width="100dp" 
+        android:layout_centerInParent="true"
+        android:onClick="onClick"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content" 
+        android:text="Select all"/>
+    
+    
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/multiList"
+        android:choiceMode="multipleChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

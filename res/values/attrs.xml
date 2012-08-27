@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <declare-styleable name="SwipeyTabs">
+        <attr name="bottomBarColor" format="color" />
+        <attr name="bottomBarHeight" format="dimension" />
+        <attr name="tabIndicatorHeight" format="dimension" />
+    </declare-styleable>
+
+</resources>

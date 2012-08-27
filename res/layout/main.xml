@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- whereverver you add swipeyTabs remember to add xmls refrence to them
+ xmlns:swipeytabs="http://schemas.android.com/apk/res/package_name" -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipeytabs="http://schemas.android.com/apk/res/com.mirrorlabs.swipey"   
+     android:id="@+id/MAIN_LAYOUT"
+     android:layout_height="fill_parent"
+      android:layout_width="fill_parent">
+
+
+    <com.mirrorlabs.swipeytabs.SwipeyTabs
+        android:id="@+id/swipeytabs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff3b3b3b"
+        swipeytabs:bottomBarColor="#ff0099cc"
+        swipeytabs:bottomBarHeight="2dip"
+        swipeytabs:tabIndicatorHeight="3dip" />
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/swipeytabs"
+        android:background="#00000000" />
+    
+</RelativeLayout>
