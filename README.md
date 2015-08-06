@@ -2,4 +2,5 @@
 
 These are Swipey tabs similar to Android Market 
 
-http://i.imgur.com/oOmNJpv.jpg
+![alt tag](http://i.imgur.com/oOmNJpv.jpg)
+
